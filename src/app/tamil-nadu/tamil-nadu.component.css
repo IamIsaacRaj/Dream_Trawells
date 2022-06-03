@@ -1,0 +1,73 @@
+.package-listing {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0px;
+  margin: 20px 0 30px 0px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #dbdbdb;
+}
+ .package-list:nth-child(1) {
+  width: 40%;
+}
+.package-list:nth-child(2) {
+  width: 40%;
+}
+.package-list:nth-child(3) {
+  width: 20%;
+}
+.package-list img {
+  min-height: 120px;
+}
+
+img {
+  vertical-align: middle;
+}
+.pkgtext-box {
+  padding: 12px;
+  margin: 0px;
+}
+
+.pkgtext-box span {
+  font-size: 12px;
+  background: #e8e8e8;
+  color: #333;
+  padding: 5px 10px;
+}
+.package-listing .package-list .pricebx-contr {
+  position: relative;
+  padding: 12px 12px 0 0px;
+}
+
+.pkglinks-view, .pkglinks-enquire {
+  outline: none;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+.pkglinks-view {
+  display: block;
+  background-color: #e94500;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px 2px;
+  margin: 15px 0 8px 0px;
+  border-radius: 5px;
+}
+
+.pkglinks-enquire {
+  display: block;
+  border: 1px solid #c0392b;
+  font-size: 14px;
+  color: #c0392b;
+  padding: 8px 2px;
+  margin: 5px 0 15px 0px;
+  border-radius: 5px;
+}
+.card-body .pkgtext-box .pricebx-contr p .price-on-request {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}

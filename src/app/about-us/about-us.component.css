@@ -1,0 +1,20 @@
+
+.services-box-orange{
+  background-color: orange;
+}
+.services-box-blue{
+  background-color: blue;
+}
+.services-box-red{
+  background-color: red;
+}
+.services-box-yellow{
+  background-color: greenyellow;
+}
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,60 @@
+element.style{
+  padding-right: 0%;
+}
+
+h1,.offcanvas-header{
+  text-align: center;
+  color: #00092C;
+  background-color: darkorange;
+  margin-bottom: 0;
+}
+
+/* search bar css */
+
+.height{
+  height: 30vh;
+  
+}
+  
+.search{
+position: relative;
+box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  
+}
+
+.search input{
+
+height: 60px;
+text-indent: 25px;
+border: 2px solid #d6d4d4;
+
+
+}
+
+
+.search input:focus{
+
+box-shadow: none;
+border: 2px solid blue;
+
+
+}
+
+.search .fa-search{
+
+position: absolute;
+top: 20px;
+left: 16px;
+
+}
+
+.search button{
+
+position: absolute;
+top: 0px;
+right: 0px;
+height: 60px;
+width: 60px;
+border-radius: 10px;
+
+}

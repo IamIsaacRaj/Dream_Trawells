@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.heading-main1 {
+  font-size: 28px;
+  color: #bb000f;
+  display: inline-block;
+}
+.roundform {
+  background: #537EC5;
+}
+.roundform form .form-group {
+  margin-bottom: 20px;
+}
+button, input, select, textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.roundform form label {
+    font-size: 16px;
+    font-weight: 500;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+}
+.mendtory {
+  color: #F39422;
+  font-size:medium;
+}
+.roundform form input[type="text"], .roundform form select, .roundform form textarea {
+  border-radius: 6px;
+  box-shadow: 0px 0px 18px -7px rgb(133 126 133 / 10%);
+  height: 45px;
+  border-color: #ddd;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 9px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.roundform form .phone-inline {
+  display: flex;
+}
+.roundform form .enpcd {
+  padding-right: 0px;
+  border-right: 0px;
+  width: 85px;
+  border-radius: 8px 0px 0px 8px!important;
+}
+.roundform form .enph {
+  border-radius: 0px 8px 8px 0px!important;
+  padding-left: 10px;
+}
+.roundform form .date-tabs-heading {
+  background: #fff;
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: 0px 0px 18px -7px rgb(133 126 133 / 10%);
+  text-align: center;
+  display: flex;
+}
+.roundform form .date-tabs-heading label.active1 {
+  background: #829eb3;
+  color: #fff;
+  border-radius: 8px 0px 0px 0px;
+  position: relative;
+}
+.roundform form .date-tabs-heading label {
+  padding: 10px;
+  flex: 1 1 auto;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1;
+}
+.roundform form .datebox {
+  padding: 20px;
+  display: none;
+  box-shadow: 0px 0px 18px -7px rgb(133 126 133 / 10%);
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 0px 0px 10px 10px;
+  border-top: 1px solid #eef3f6;
+}
+.arrdate {
+  display: flex;
+  justify-content: center;
+}
+ .age {
+  background: #ededed;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 1px 6px 0px 6px;
+  font-size: 13px;
+  margin-right: 3px;
+}
+
+.guest-sec {
+  padding: 20px!important;
+  width:fit-content;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.submit-btn {
+  background: #fd6411;
+  color: #fff;
+  border: none;
+  border-radius: 60px;
+  font-size: 18px;
+  box-shadow: 1px 0px 25px -8px rgba(0,0,0,0.45)!important;
+  padding: 10px 10px 8px 10px;
+  min-width: 180px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
+
+@media (min-width: 992px){
+.col-md-6 {
+    width: 50%;
+}
+}
+@media (min-width: 992px){
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: left;
+}
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

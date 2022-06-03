@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Welcome to Dream Trawells</h1>
+      <nav class="navbar navbar-expand-xl sticky-top navbar-dark bg-dark p-1">
+        <div class="container-fluid">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand m-0" routerLink="/Home" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Let's Explore</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link -" routerLink="/Home" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/About_us" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"routerLink="/Destination_Places" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Destination Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"routerLink="/Destination_Theme" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Destination Themes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="/Season" routerLinkActive="active" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-target=".navbar-collapse.show">
+                Season
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" routerLink="/Season/summer" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Summer</a></li>
+                  <li><a class="dropdown-item" routerLink="/Season/winter" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Winter</a></li>
+                  <li><a class="dropdown-item" routerLink="/Season/mansoon" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Mansoon</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/Hotels_Resorts" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Hotels & Resorts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/Contact_us" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Contact Us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-1 mb-lg-1">
+              <li class="nav-item">
+                <a class="btn btn-secondary btn-sm m-1" routerLink="/Enquire_Now" routerLinkActive="active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Enquire Now</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="btn btn-secondary btn-sm m-1" routerLink="/Sign_in" routerLinkActive="active">Sign in</a>
+              </li> -->
+            </ul>
+          </div>
+          <div class="collapse show ms-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-1 mb-lg-1">
+              <li >
+                <button class="btn btn-primary btn-sm m-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid offcanvas offcanvas-top px-0 mx-0" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header px-0">
+          <h2 class="offcanvas-title text-center mx-auto" id="offcanvasTopLabel">Explore our Destination Places</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0">
+          <div class="col-lg-8 mx-auto px-0">
+            <div class="search">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control" placeholder="Find your destination">
+              <div class="mb-3">
+                <button type="button" class="btn btn-outline-primary border-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <br/>
+      <br/> -->
+    <router-outlet></router-outlet>
+  </body>
+  <app-footer></app-footer>
+</html>

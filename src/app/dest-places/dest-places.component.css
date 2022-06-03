@@ -1,0 +1,48 @@
+a{
+  text-decoration: none;
+  color: #222;
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+}
+.card .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.card h2 {
+  font-weight: 400;
+}
+
+
+#goa {
+  background-image: url(../../assets/images/Goa.jpeg);
+  background-size: cover;
+  height: 250px;  
+}
+#kerala {
+  background-image: url(../../assets/images/kerala.jpeg);
+  background-size: cover;
+  height: 250px;  
+}
+#ap {
+  background-image: url(../../assets/images/ANDHRA-PRADESH.jpg);
+  background-size: cover;
+  height: 250px;  
+}
+#ts{
+  background-image: url(../../assets/images/Charminar.jpeg);
+  background-size: cover;
+  height: 250px; 
+}
+#karnataka{
+  background-image: url(../../assets/images/karnataka.jpeg);
+  background-size: cover;
+  height: 250px; 
+}
+#tn {
+  background-image: url(../../assets/images/tamilnadu.jpeg);
+  background-size: cover;
+  height: 250px; 
+}

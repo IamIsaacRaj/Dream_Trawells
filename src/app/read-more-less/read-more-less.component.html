@@ -1,0 +1,17 @@
+<div>
+  <p #textbox [class.show-less]="expand === false">
+    <ng-content></ng-content>
+  </p>
+  
+ 
+</div>
+<div class="d-flex justify-content-center my-2">
+     <a
+    (click)="toggle()"
+    *ngIf="
+      textbox.offsetHeight < textbox.scrollHeight ||
+      (expand === true && textbox.offsetHeight > 40)
+    "class="btn btn-danger m-1"
+    >{{ anchor }}
+  </a>
+  </div>

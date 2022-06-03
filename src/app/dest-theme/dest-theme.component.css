@@ -1,0 +1,48 @@
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+}
+.card .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.card h2 {
+  font-weight: 400;
+}
+
+
+#beach {
+  background-image: url(../../assets/images/Goa.jpeg);
+  background-size: cover;
+  height: 250px;  
+}
+#honeymoon {
+  background-image: url(../../assets/images/honeymoon.jpg);
+  background-size: cover;
+  height: 250px;  
+}
+#heritage {
+  background-image: url(../../assets/images/heritage.jpg);
+  background-size: cover;
+  height: 250px;  
+}
+#hillstation{
+  background-image: url(../../assets/images/hillstation.jpg);
+  background-size: cover;
+  height: 250px; 
+}
+#piligrimage{
+  background-image: url(../../assets/images/Pilgrimage.jpg);
+  background-size: cover;
+  height: 250px; 
+}
+#wildlife {
+  background-image: url(../../assets/images/wildlife.jpeg);
+  background-size: cover;
+  height: 250px; 
+}

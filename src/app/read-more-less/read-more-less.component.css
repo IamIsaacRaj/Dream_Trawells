@@ -1,0 +1,23 @@
+a {
+  cursor: pointer;
+	text-decoration: none;
+}
+
+div {
+  display: block;
+  width: 100%;
+	font-size: 1rem;
+  text-align: justify;
+}
+
+p {
+  margin: 0 0 4px;
+}
+
+.show-less {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

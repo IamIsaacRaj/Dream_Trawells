@@ -1,0 +1,87 @@
+body{
+  background-color: antiquewhite;
+}
+.h1-head1,.h2-head1,.headcnt{
+  color: rgb(239, 64, 15);
+  font-weight: 500;
+}
+.h1-head1 {
+  font-size: 26px;
+  margin: 0px;
+  padding-bottom: 8px;
+}
+.gray-line1 {
+  margin: 30px auto 5px;
+  border-top: 1px solid #222;
+  width: 70%;
+}
+.h2-head1 {
+  font-size: 22px;
+  display: inline-block;
+  padding: 0 20px;
+  margin: -40px 0 0px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+.contact-leftbx p strong {
+  font-size: 1rem;
+  color: rgb(239, 64, 15);
+  font-weight: 500;
+}
+.flex-contr {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-contr .flex-contr-wrapper {
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.call-numb ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.call-numb ul li {
+	display: block;
+	font-size: 1.2rem;
+	line-height: 38px;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+	padding: 2px 5px;
+}
+
+.call-numb ul li:last-child {
+	border-bottom: none;
+}
+
+.call-numb ul li a {
+	float: right;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.call-numb ul li br {
+	display: none;
+}
+.headcnt {
+  display: block;
+  font-size: 22px;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.op-hrs {
+  border: 1px dashed #bbb;
+  padding:0.5rem;
+  background-color: #f0f0ef;
+}
+.contact-leftbx p strong {
+  font-size: 1rem;
+  color: rgb(239, 64, 15);
+  font-weight: 500;
+}
